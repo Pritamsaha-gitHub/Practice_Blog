@@ -1,0 +1,43 @@
+.outer{
+    box-sizing: border-box;
+    border: 5px solid red;
+    padding: 50px;
+    font-size: 60px;
+    display: flex;
+    /*flex-flow: wrap;*/
+    justify-content: center;
+}
+.Inner1{
+    box-sizing: border-box;
+    border: 5px solid red;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+
+}
+.sub-Inner{
+    box-sizing: border-box;
+    border: 5px solid green;
+    padding: 50px;
+    font-size: 60px;
+}
+.H{
+    box-sizing: border-box;
+    border: 5px solid pink;
+    padding: 5px;
+}
+.Inner2{
+    box-sizing: border-box;
+    border: 5px solid red;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+
+}
+.outer1{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+}
