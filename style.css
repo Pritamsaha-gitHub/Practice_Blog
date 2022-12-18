@@ -1,6 +1,7 @@
 .outer{
+    color: green;
     box-sizing: border-box;
-    border: 5px solid red;
+    border: 5px solid blue;
     padding: 50px;
     font-size: 60px;
     display: flex;
